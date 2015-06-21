@@ -99,72 +99,72 @@ These are the fields of the tidy dataset:
 
 | Field Name    | Type    |
 | ------------- | :------ |
-| subject | Integer (1:30) |
+| subject | Integer (values from 1 to 30) |
 | activity | Character (laying, sitting, standing, walking, walking_downstairs, walking_upstairs) |
-| average_tbodyacc_mean_x | Double |
-| average_tbodyacc_mean_y | Double |
-| average_tbodyacc_mean_z | Double |
-| average_tbodyacc_std_x  | Double |
-| average_tbodyacc_std_y  | Double |
-| average_tbodyacc_std_z | Double |
-| average_tgravityacc_mean_x |  Double |
-| average_tgravityacc_mean_y |  Double |
-| average_tgravityacc_mean_z |  Double |
-| average_tgravityacc_std_x  |  Double |
-| average_tgravityacc_std_y |  Double |
-| average_tgravityacc_std_z |  Double |
-| average_tbodyaccjerk_mean_x |  Double |
-| average_tbodyaccjerk_mean_y |  Double |
-| average_tbodyaccjerk_mean_z |  Double |
-| average_tbodyaccjerk_std_x |  Double |
-| average_tbodyaccjerk_std_y | Double |
-| average_tbodyaccjerk_std_z | Double |
-| average_tbodygyro_mean_x | Double |
-| average_tbodygyro_mean_y | Double |
-| average_tbodygyro_mean_z | Double |
-| average_tbodygyro_std_x | Double |
-| average_tbodygyro_std_y | Double |
-| average_tbodygyro_std_z | Double |
-| average_tbodygyrojerk_mean_x | Double |
-| average_tbodygyrojerk_mean_y | Double |
-| average_tbodygyrojerk_mean_z | Double |
-| average_tbodygyrojerk_std_x | Double |
-| average_tbodygyrojerk_std_y | Double |
-| average_tbodygyrojerk_std_z | Double |
-| average_tbodyaccmag_mean | Double |
-| average_tbodyaccmag_std | Double |
-| average_tgravityaccmag_mean | Double |
-| average_tgravityaccmag_std | Double |
-| average_tbodyaccjerkmag_mean | Double |
-| average_tbodyaccjerkmag_std | Double |
-| average_tbodygyromag_mean | Double |
-| average_tbodygyromag_std | Double |
-| average_tbodygyrojerkmag_mean | Double |
-| average_tbodygyrojerkmag_std | Double |
-| average_fbodyacc_mean_x | Double |
-| average_fbodyacc_mean_y | Double |
-| average_fbodyacc_mean_z | Double |
-| average_fbodyacc_std_x | Double |
-| average_fbodyacc_std_y | Double |
-| average_fbodyacc_std_z | Double |
-| average_fbodyaccjerk_mean_x | Double |
-| average_fbodyaccjerk_mean_y | Double |
-| average_fbodyaccjerk_mean_z | Double |
-| average_fbodyaccjerk_std_x | Double |
-| average_fbodyaccjerk_std_y | Double |
-| average_fbodyaccjerk_std_z | Double |
-| average_fbodygyro_mean_x | Double |
-| average_fbodygyro_mean_y | Double |
-| average_fbodygyro_mean_z | Double |
-| average_fbodygyro_std_x | Double |
-| average_fbodygyro_std_y | Double |
-| average_fbodygyro_std_z | Double |
-| average_fbodyaccmag_mean | Double |
-| average_fbodyaccmag_std | Double |
-| average_fbodybodyaccjerkmag_mean | Double |
-| average_fbodybodyaccjerkmag_std | Double |
-| average_fbodybodygyromag_mean | Double |
-| average_fbodybodygyromag_std | Double |
-| average_fbodybodygyrojerkmag_mean | Double |
-| average_fbodybodygyrojerkmag_std | Double |
+| average_tbodyacc_mean_x | Double (averaged values between -1 and 1)|
+| average_tbodyacc_mean_y | Double (averaged values between -1 and 1) |
+| average_tbodyacc_mean_z | Double (averaged values between -1 and 1) |
+| average_tbodyacc_std_x  | Double (averaged values between -1 and 1) |
+| average_tbodyacc_std_y  | Double (averaged values between -1 and 1) |
+| average_tbodyacc_std_z | Double (averaged values between -1 and 1) |
+| average_tgravityacc_mean_x |  Double (averaged values between -1 and 1) |
+| average_tgravityacc_mean_y |  Double (averaged values between -1 and 1) |
+| average_tgravityacc_mean_z |  Double (averaged values between -1 and 1) |
+| average_tgravityacc_std_x  |  Double (averaged values between -1 and 1) |
+| average_tgravityacc_std_y |  Double (averaged values between -1 and 1) |
+| average_tgravityacc_std_z |  Double (averaged values between -1 and 1) |
+| average_tbodyaccjerk_mean_x |  Double (averaged values between -1 and 1) |
+| average_tbodyaccjerk_mean_y |  Double (averaged values between -1 and 1) |
+| average_tbodyaccjerk_mean_z |  Double (averaged values between -1 and 1) |
+| average_tbodyaccjerk_std_x |  Double (averaged values between -1 and 1) |
+| average_tbodyaccjerk_std_y | Double (averaged values between -1 and 1) |
+| average_tbodyaccjerk_std_z | Double (averaged values between -1 and 1) |
+| average_tbodygyro_mean_x | Double (averaged values between -1 and 1) |
+| average_tbodygyro_mean_y | Double (averaged values between -1 and 1) |
+| average_tbodygyro_mean_z | Double (averaged values between -1 and 1) |
+| average_tbodygyro_std_x | Double (averaged values between -1 and 1) |
+| average_tbodygyro_std_y | Double (averaged values between -1 and 1) |
+| average_tbodygyro_std_z | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerk_mean_x | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerk_mean_y | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerk_mean_z | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerk_std_x | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerk_std_y | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerk_std_z | Double (averaged values between -1 and 1) |
+| average_tbodyaccmag_mean | Double (averaged values between -1 and 1) |
+| average_tbodyaccmag_std | Double (averaged values between -1 and 1) |
+| average_tgravityaccmag_mean | Double (averaged values between -1 and 1) |
+| average_tgravityaccmag_std | Double (averaged values between -1 and 1) |
+| average_tbodyaccjerkmag_mean | Double (averaged values between -1 and 1) |
+| average_tbodyaccjerkmag_std | Double (averaged values between -1 and 1) |
+| average_tbodygyromag_mean | Double (averaged values between -1 and 1) |
+| average_tbodygyromag_std | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerkmag_mean | Double (averaged values between -1 and 1) |
+| average_tbodygyrojerkmag_std | Double (averaged values between -1 and 1) |
+| average_fbodyacc_mean_x | Double (averaged values between -1 and 1) |
+| average_fbodyacc_mean_y | Double (averaged values between -1 and 1) |
+| average_fbodyacc_mean_z | Double (averaged values between -1 and 1) |
+| average_fbodyacc_std_x | Double (averaged values between -1 and 1) |
+| average_fbodyacc_std_y | Double (averaged values between -1 and 1) |
+| average_fbodyacc_std_z | Double (averaged values between -1 and 1) |
+| average_fbodyaccjerk_mean_x | Double (averaged values between -1 and 1) |
+| average_fbodyaccjerk_mean_y | Double (averaged values between -1 and 1) |
+| average_fbodyaccjerk_mean_z | Double (averaged values between -1 and 1) |
+| average_fbodyaccjerk_std_x | Double (averaged values between -1 and 1) |
+| average_fbodyaccjerk_std_y | Double (averaged values between -1 and 1) |
+| average_fbodyaccjerk_std_z | Double (averaged values between -1 and 1) |
+| average_fbodygyro_mean_x | Double (averaged values between -1 and 1) |
+| average_fbodygyro_mean_y | Double (averaged values between -1 and 1) |
+| average_fbodygyro_mean_z | Double (averaged values between -1 and 1) |
+| average_fbodygyro_std_x | Double (averaged values between -1 and 1) |
+| average_fbodygyro_std_y | Double (averaged values between -1 and 1) |
+| average_fbodygyro_std_z | Double (averaged values between -1 and 1) |
+| average_fbodyaccmag_mean | Double (averaged values between -1 and 1) |
+| average_fbodyaccmag_std | Double (averaged values between -1 and 1) |
+| average_fbodybodyaccjerkmag_mean | Double (averaged values between -1 and 1) |
+| average_fbodybodyaccjerkmag_std | Double (averaged values between -1 and 1) |
+| average_fbodybodygyromag_mean | Double (averaged values between -1 and 1) |
+| average_fbodybodygyromag_std | Double (averaged values between -1 and 1) |
+| average_fbodybodygyrojerkmag_mean | Double (averaged values between -1 and 1) |
+| average_fbodybodygyrojerkmag_std | Double (averaged values between -1 and 1) |
 
